@@ -1,0 +1,26 @@
+= Python RPA demo
+
+Project to demonstrate how easy it is to create your own Robotic Process Automation software with python.
+
+== How to run
+
+Project uses pip as package manager. First run
+
+----
+pip install
+----
+
+To run the application
+
+----
+pipenv run python rpa_app.py
+----
+
+
+== How to release
+
+Project uses pyinstaller to build the software package.
+
+----
+pipenv run pyinstaller rpa_app.py
+----
